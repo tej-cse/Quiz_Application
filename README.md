@@ -16,10 +16,10 @@ This is a **full-stack quiz application** that allows users to participate in qu
 ## 🏠 Project Structure
 ```
 Quiz_Application/
-│── QuizApp/       # React.js (Frontend)
-│── QuizAppBack-end/        # Spring Boot (Backend)
-│── QuizAppDB/       # MySQL Database Dump
-│── README.md       # Documentation
+│── QuizApp/              # React.js (Frontend)
+│── QuizAppBack-end/      # Spring Boot (Backend)
+│── QuizAppDB/            # MySQL Database Dump
+│── README.md             # Documentation
 ```
 
 ## 🚀 How to Set Up the Project
@@ -80,9 +80,13 @@ npm start
 
 ## 📉 Features
 
-✅ Interactive Frontend
-✅ CRUD operations for Quizzes & Questions  
-✅ MySQL database integration  
+✅ Interactive Quiz: Users can select topic for the quiz from a wide range of topics.
+✅ Option Selection Validation: Users cannot proceed to the next question without selecting an option.
+✅ Dynamic Scoring: Scores are calculated in real-time using a score state variable.
+✅ Final Score Display: Once all questions are answered, users are presented with their final score.
+✅ User-Friendly Interface: The application provides a smooth and intuitive interface for taking quizzes.
+✅ CRUD operations for Quizzes & Questions.
+✅ MySQL database integration.
 
 ## 🛠️ Future Enhancements
 ✅ User Registration & Login  
