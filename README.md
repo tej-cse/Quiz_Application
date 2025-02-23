@@ -49,7 +49,7 @@ cd Quiz_Application
 ### 3️⃣ Run the Backend (Spring Boot)
 Navigate to the `QuizAppBack-end/` folder and start the Spring Boot server:
 ```bash
-cd backend
+cd QuizAppBack-end
 mvn spring-boot:run
 ```
 - The backend will run at: **http://localhost:8080**
@@ -57,7 +57,7 @@ mvn spring-boot:run
 ### 4️⃣ Run the Frontend (React.js)
 Navigate to the `QuizApp/` folder and start the React app:
 ```bash
-cd frontend
+cd QuizApp
 npm install
 npm start
 ```
