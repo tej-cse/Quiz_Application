@@ -1,0 +1,167 @@
+body{
+
+    background-color:white;
+    margin: 0px;padding: 0px;
+
+  }
+
+  /* General Reset */
+
+
+/* Banner Heading */
+.home-banner {
+  width: 100%;
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Container for the rest of the content */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding-top: 100px; /* Adjust padding to account for the fixed banner */
+}
+
+/* Dropdown styles */
+.home-container select {
+  width: 200px;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 1rem;
+  border: 2px solid #4a90e2;
+  border-radius: 5px;
+  background-color: white;
+  color: #333;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.home-container select:hover {
+  border-color: #3b7bd4;
+}
+
+/* Topic display */
+.home-container h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.home-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.home-container button:hover {
+  background-color: #3b7bd4;
+}
+
+/* Instruction text */
+.home-container h5 {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 15px;
+}
+
+
+  .scorePage {
+    
+    text-align: center;
+    background-color: #E3A5C7;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 100px;
+
+  }
+
+  
+
+  .quiz {
+
+      margin: auto;
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #E3A5C7;
+      width: 70%;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+    }
+
+    
+
+    .quiz ul li {
+
+      display: flex;
+      align-items: center;
+      border: 1px solid #694F8E;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      background-color: #ece7e6;
+      width: 500px;
+
+    }
+
+    
+
+    .quiz ul li.selected {
+
+      background-color: #694F8E;
+      color: white;
+
+    }
+
+    .quiz button {
+
+        padding: 10px;
+        width: 400px;
+        border-radius: 15px;
+        background-color: #E49BFF;
+        color: black;
+        border: 1px solid black;
+  
+      }
+  
+      
+  
+      .quiz button:hover {
+  
+        background-color: aliceblue;
+        border: 2px solid plum;
+        cursor: pointer;
+  
+      }
+  
+  
+  
+  
+  
+
+
